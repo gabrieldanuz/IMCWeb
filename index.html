@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cálculo de Massa Corporal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cálculo IMC</h1>
+  </header>
+
+  <section>
+    <form name="formulario">
+      <fieldset>
+        <legend>Formulário</legend>
+        <label for="altura">Altura:</label><br>
+        <input type="text" id="altura" name="altura">
+        <label for="peso">Peso:</label><br>
+        <input type="text" id="peso" name="peso">
+        <button type="button" id="calcular">Calcular</button>
+        <button type="button" id="limpar">Limpar</button>
+      </fieldset>
+    </form>
+  </section>
+
+  <section>
+    <label>Resultado:</label><div id="resultado"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
